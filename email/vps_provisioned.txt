@@ -11,7 +11,7 @@ Specification
 - MySQL 5.1,
 - Plesk Panel version 11,
 - ## Domain Plesk Panel licence,
-- Self-Managed/Fully-Managed
+- Self-Managed,
 
 Login Credentials
 =================
@@ -48,21 +48,5 @@ The installer allows you to quickly deploy any number of web-applications to you
 You may find the following quick start guide to be of use:
 
 http://www.nublue.co.uk/web-hosting/installatron-plesk11-quickstart-guide
-
-DELETE IF NOT MANAGED!!!
-
-Managed Service
-===============
-
-As you have opted for a Managed service your VPS has been added to our monitoring suite whereby in office hours our support team and outside of office hours our on-call engineer will be notified if core services fail or other issues occur on your VPS. If such issues do occur we will endeavour to resolve the problem upon notification to maintain your service.
-
-The Fully Managed service includes the following:
-
-- 24/7 remote monitoring of VPS,
-- 24/7 emergency support number (08704957544),
-- Priority support from the Hosting Team,
-- Granular backup restores,
-- Proactive server monitoring,
-- Core operating system updates,
 
 If you have any queries regarding the above or indeed anything else then please do not hesitate to get in touch via phone (0800 033 7074) or email (support@nublue.co.uk).

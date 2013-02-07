@@ -1,16 +1,18 @@
-Your new Virtual Private Server (VPS) $PACKAGE has now been provisioned. Please find enclosed all the information you need to get started with your VPS below.
+Your new Virtual Private Server (VPS) $PACKAGE has now been provisioned.
+Please find enclosed all the information you need to get started with your VPS
+below.
 
 Specification
 =============
 
-- Memory: $MEMORY
-- Disk space: $DISK
+- Memory: $MEMORY,
+- Disk space: $DISK,
 - Bandwidth: $BANDWIDTH per month,
 - CentOS 6 operating system,
 - PHP 5.3,
 - MySQL 5.1,
 - Plesk Panel version 11,
-- ## Domain Plesk Panel licence,
+- $LICENCE Domain Plesk Panel licence,
 - Self-Managed,
 
 Login Credentials
@@ -22,7 +24,12 @@ Control Panel URL: https://$HOSTNAME:8443/
 Username: admin
 Password: $PASSWORD
 
-Please note that your Plesk Panel comes with a pre-installed with a self-signed SSL Certificate and as such you may be presented with a warning message by your web-browser. This is not something you should be alarmed about, though you should ensure that the URL you are visiting is definitely that of your VPS (https://$HOSTNAME:8443). It is also perfectly normal for there to be more information in the address bar after the 8443.
+Please note that your Plesk Panel comes with a pre-installed with a
+self-signed SSL Certificate and as such you may be presented with a warning
+message by your web-browser. This is not something you should be alarmed
+about, though you should ensure that the URL you are visiting is definitely
+that of your VPS (https://$HOSTNAME:8443). It is also perfectly normal for
+there to be more information in the address bar after the 8443.
 
 Nameserver Information
 ======================
@@ -33,20 +40,42 @@ Nameserver Information
 SSH (Secure Shell) Access
 =========================
 
-Shell Access: $HOSTNAME (Please note that by default all shell access is disabled, see below for further information)
+Shell Access: $HOSTNAME (Please note that by default all shell access is
+disabled, see below for further information)
 Root Password: $PASSWORD
 
-To connect to your server via SSH (Secure Shell) you would use a client such as PuTTY on Windows, or the in-built Terminal application on Mac OS X or Linux. Direct root access is disabled on your server to aid security (a common practice), to connect via SSH you would be required login to SSH as your FTP user for a domain, and then, if required escalate to root privileges by executing the command "su -" and typing in your root password (provided on your initial provisioning email with all your login details). To reset your FTP credentials and turn on Shell access for a domain you would first login to your Plesk Hosting Control Panel, select the relevant Webspace and browse to Websites & Domains --> Web Hosting Access --> User Account, you would then then select '/bin/bash' (or your preferred Shell) from the dropdown box under 'Access to the server over SSH' to enable Shell access for this domain. You can use either $HOSTNAME or an IP address associated with your server for the value of your hostname. If there is a specific task you wish to undertake but are unsure how we are happy to provide free advice and guidance prior to your making changes as opposed to charging to undo damage to the server afterwards!
+To connect to your server via SSH (Secure Shell) you would use a client such
+as PuTTY on Windows, or the in-built Terminal application on Mac OS X or
+Linux. Direct root access is disabled on your server to aid security (a common
+practice), to connect via SSH you would be required login to SSH as your FTP
+user for a domain, and then, if required escalate to root privileges by
+executing the command "su -" and typing in your root password (provided on
+your initial provisioning email with all your login details). To reset your
+FTP credentials and turn on Shell access for a domain you would first login to
+your Plesk Hosting Control Panel, select the relevant Webspace and browse to
+Websites & Domains --> Web Hosting Access --> User Account, you would then
+then select '/bin/bash' (or your preferred Shell) from the dropdown box under
+'Access to the server over SSH' to enable Shell access for this domain. You
+can use either $HOSTNAME or an IP address associated with your server for the
+value of your hostname. If there is a specific task you wish to undertake but
+are unsure how we are happy to provide free advice and guidance prior to your
+making changes as opposed to charging to undo damage to the server afterwards!
 
 Installatron
 ============
 
-Your new Virtual Private Server is provided with Installatron, a popular application installer that provides a graphical interface and automation tools designed to simplify the process of hosting web-applications, such as WordPress, Magento and Drupal.
+Your new Virtual Private Server is provided with Installatron, a popular
+application installer that provides a graphical interface and automation tools
+designed to simplify the process of hosting web-applications, such as
+WordPress, Magento and Drupal.
 
-The installer allows you to quickly deploy any number of web-applications to your solution.
+The installer allows you to quickly deploy any number of web-applications to
+your solution.
 
 You may find the following quick start guide to be of use:
 
 http://www.nublue.co.uk/web-hosting/installatron-plesk11-quickstart-guide
 
-If you have any queries regarding the above or indeed anything else then please do not hesitate to get in touch via phone (0800 033 7074) or email (support@nublue.co.uk).
+If you have any queries regarding the above or indeed anything else then
+please do not hesitate to get in touch via phone (0800 033 7074) or email
+(support@nublue.co.uk).

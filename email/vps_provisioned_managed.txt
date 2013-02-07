@@ -3,14 +3,14 @@ Your new Virtual Private Server (VPS) $PACKAGE has now been provisioned. Please 
 Specification
 =============
 
-- Memory: $MEMORY
-- Disk space: $DISK
+- Memory: $MEMORY,
+- Disk space: $DISK,
 - Bandwidth: $BANDWIDTH per month,
 - CentOS 6 operating system,
 - PHP 5.3,
 - MySQL 5.1,
 - Plesk Panel version 11,
-- ## Domain Plesk Panel licence,
+- $LICENCE Domain Plesk Panel licence,
 - Fully Managed,
 
 Login Credentials

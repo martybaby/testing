@@ -1,8 +1,9 @@
-Your new Virtual Private Server (VPS) $PACKAGE has now been provisioned. Please find enclosed all the information you need to get started with your VPS below.
+Your new Virtual Private Server (VPS) $HOSTNAME has now been provisioned. Please find enclosed all the information you need to get started with your VPS below.
 
 Specification
 =============
 
+- Package: $PACKAGE,
 - Memory: $MEMORY,
 - Disk space: $DISK,
 - Bandwidth: $BANDWIDTH per month,
